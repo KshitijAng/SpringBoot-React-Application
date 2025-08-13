@@ -1,4 +1,4 @@
-# 🚀 AI Hub - Spring Boot + React + Groq (OpenAI GPT-OSS-20B)
+# 🚀 AI Hub - Spring Boot + React + Groq (OpenAI GPT-oss-20b)
 
 An AI-powered web application built with **Spring Boot** (backend) and **React** (frontend), leveraging **Groq’s high-performance inference** to run **OpenAI GPT-OSS-20B** for chat, code generation, and more.
 
