@@ -75,4 +75,16 @@ This project uses **Groq's GPT-OSS-20B**, a powerful **20-billion parameter open
 
 In short, **Groq + GPT-OSS-20B** means **blazing speed, open-source flexibility, and production-ready reliability**—perfect for both experimentation and enterprise-grade AI applications.
 
+## 🟠 Testing Spring Boot Application with Postman
+
+Postman is a powerful tool for sending HTTP requests to test APIs without writing any code.  
+In this project, Postman is used to verify that the Spring Boot backend endpoints work as expected.
+
+- Download and install [Postman](https://www.postman.com/downloads/).
+- Open the application and create a **new request**.
+
+### Sending a `GET` Request
+![Alt text for accessibility](postman.png)
+
+
 
