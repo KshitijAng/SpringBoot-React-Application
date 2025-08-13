@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* { padding: 0; box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('/hro.jpg') center top / cover repeat fixed;
+  background-color: black;
+}
+
+
+body {
+  min-height: 100%;
+  background: url('/hro.jpg') center top / cover repeat fixed;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  background-size: cover;
+}
+
+/* ensure hero fills viewport */
+.App {
+  min-height: 100vh;
+  padding-top: 2.5rem; /* move heading down a bit */
+  text-align: center;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+/* heading */
+h1 {
+  margin: 0 auto;
+  max-width: 56rem;
+  text-align: center;
+  font-size: 50px;      
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  padding: 0 1rem;       /* small horizontal padding on small screens */
+}
+
+
+/* center buttons without flex */
+.buttons {
+  text-align: center; /* centers inline/inline-block children */
+  margin-top: 60px;
+}
+
+button {
+  margin: 0 1.5rem;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.ask-button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+/* gradient text */
+.text-gradient {
+  background-image: linear-gradient(to right, #FF7EB3, #8E44FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+h2 {
+  margin-top: 40px;
+  color: white;
+  font-size: 26px;
+}
+
+input {
+  padding: 10px;
+  width: calc(100% - 640px);
+  margin-top: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.output {
+  margin: 30px auto 20px auto;  /* top auto auto = center horizontally */
+  text-align: left;
+  background-color: none;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 480px);
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+.code-snippet {
+  max-width: 100%;
+  max-height: auto; /* limit height for scroll */
+  padding: 15px;
+  box-sizing: border-box;
+  white-space: pre-wrap; /* keep formatting but wrap long lines */
+  word-wrap: break-word;
+  background: rgba(0, 0, 0, 0.3);
+  font-family: monospace;
+  font-size: calc(12px + 0.4vw);
+  line-height: 1.6;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.instructions {
+  padding: 10px;
+  width: calc(100% - 512px);
+  margin-top: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.language {
+  padding: 10px;
+  width: calc(100% - 648px);
+  margin-top: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}

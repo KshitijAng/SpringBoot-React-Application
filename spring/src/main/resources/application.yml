@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo
+  ai:
+    openai:
+      api-key: "API_KEY_HERE" 
+      base-url: "https://api.groq.com/openai"
