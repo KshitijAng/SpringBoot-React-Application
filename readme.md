@@ -2,7 +2,7 @@
 
 An AI-powered web application built with **Spring Boot** (backend) and **React** (frontend), leveraging **Groq’s high-performance inference** to run **OpenAI GPT-OSS-20B** for chat, code generation, and more.
 
-![Alt text for accessibility](logo.png)
+![Alt text for accessibility](ai-hub-logo.png)
 
 ## 📌 Features
 
